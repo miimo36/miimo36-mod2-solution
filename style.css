@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding-bottom: 40px;
+
+}
+.container {
+	display: inline-flex;
+
+}
+
+#box10{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	border: 2px solid black;
+	text-align: center;
+	background-color: #FFE2AA;
+	width: 70px;
+	box-sizing: border-box;
+	float: right;
+
+}
+
+#content {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+
+}
+
+.box1 {
+	border: 2px solid black;
+	margin: 10px;
+	width:30%;
+
+}
+
+.box2{
+	border: 2px solid black;
+	width:30%;
+	margin: 10px;
+}
+
+.box3 {
+	border: 2px solid black;
+	width:30%;
+	margin: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	*{
+		margin: 0;
+		padding: 0;
+
+	}
+
+	.container {
+		
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+
+	.box1 {
+		width: 40%;
+		display: inline-block;
+	
+	}
+	.box2 {
+		width: 40%;
+		display: inline-block;
+	}
+
+
+	.box3 {
+		width: 83%;
+		margin: 0 0 0 10px;
+		display: inline-block;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+
+	.container {
+		
+		display: inline-block;
+		padding: 0;
+		margin: 0 20% 0 20%;
+	}
+
+	.box1 {
+		display: block;
+		width: 80%;
+		height: 120%;
+
+		
+	}
+	.box2 {
+		display: block;
+		width: 80%;
+		height: 120%;
+
+	}
+
+
+	.box3 {
+		display: block;
+		width: 80%;
+		height: 120%;
+		
+	}
+}
